@@ -6,9 +6,10 @@ public class Singlenumber {
 
         int [] nums={1,1,2,3,3,4,4,8,8};
         System.out.println(singleNonDuplicate(nums));
+//        numberFormula(nums);
     }
-
-     static int singleNonDuplicate(int[] nums) {
+     // Using XOR operator
+    static int singleNonDuplicate(int[] nums) {
         int result =0;
         for(int n: nums){
             result=result^n;
