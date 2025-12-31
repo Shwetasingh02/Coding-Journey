@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Introduction {
 
     public static void main(String[] args) {
-        int arr[]={3,5,  2,1,4};
+        int arr[]={3,5,2,1,4};
         CycleSort(arr);
         System.out.println(Arrays.toString(arr));
 

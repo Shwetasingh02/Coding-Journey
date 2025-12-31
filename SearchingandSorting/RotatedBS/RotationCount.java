@@ -1,4 +1,4 @@
-package SearchingandSorting.Binary;
+package SearchingandSorting.RotatedBS;
 
 public class RotationCount {
 
