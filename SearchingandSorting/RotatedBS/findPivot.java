@@ -3,7 +3,7 @@ package SearchingandSorting.RotatedBS;
 public class findPivot {
 
     public static void main(String[] args) {
-        int arr[]={4,5,6,7,3,2,1,0};
+        int arr[]={4,5,6,7,0,1,2,3};
         System.out.println(pivot(arr));
     }
 
