@@ -1,4 +1,4 @@
-package BitwiseOperator;
+package BitwiseAndMath.bitWise;
 
 public class findUnique {
 

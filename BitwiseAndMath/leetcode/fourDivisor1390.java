@@ -1,4 +1,4 @@
-package BitwiseOperator.leetcode;
+package BitwiseAndMath.leetcode;
 
 public class fourDivisor1390 {
 
