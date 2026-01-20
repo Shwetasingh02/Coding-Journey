@@ -45,4 +45,22 @@ Comparison
 == → compares reference
 equals() → compares content
 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+=====================
+String Builder
+======================
+StringBuilder is a mutable class in Java used to create and modify strings efficiently without creating new objects.
+
+Why do we need StringBuilder?
+===============================
+--> String is immutable
+--> Every change in String creates a new object
+--> StringBuilder allows:
+--> Fast string modification
+--> Better performance
+--> Less memory usage
+
+
+
 

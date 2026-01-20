@@ -8,7 +8,7 @@ public class Introduction {
 //        System.out.println(name);
 //
         String a="Shweta";
-        System.out.println(a);
+        System.out.println(a.toCharArray());
         a="Singh";
         System.out.println(a);
     }
