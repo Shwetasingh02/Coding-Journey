@@ -1,0 +1,66 @@
+
+STRING:-
+===========
+String Pool is a special memory area inside the heap that stores
+string literals to optimize memory usage by reusing existing string objects.
+
+--> String Pool is a special area inside the Heap memory.
+--> It stores String objects created using string literals.
+    String s1 = "Java";
+--> When a string literal is created:
+--> JVM checks the String Pool first
+--> If the same value already exists → reference is reused
+--> If not → a new String object is created in the pool
+
+======================
+Purpose of String Pool
+======================
+--> Saves memory
+--> Improves performance
+--> Avoids duplicate String objects
+
+==================================================================
+--> Strings created using new keyword:
+--> String s2 = new String("Java");
+--> Stored in Heap (outside pool)
+--> Creates a new object every time, even if value exists in pool
+=====================================================================
+
+======================
+String immutability
+======================
+String is immutable because once a String object is created, its content cannot be changed.
+Reassigning a variable creates a new String object instead of modifying the existing one.
+(iska matlab yee ki String ka jo value hoga wo change nahi hoga uska reference change ho jayega.)
+
+================
+intern() method
+================
+Moves a string from heap to String Pool (if not already present)
+String s3 = s2.intern();
+
+=================
+Comparison
+==================
+== → compares reference
+equals() → compares content
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+=====================
+String Builder
+======================
+StringBuilder is a mutable class in Java used to create and modify strings efficiently without creating new objects.
+
+Why do we need StringBuilder?
+===============================
+--> String is immutable
+--> Every change in String creates a new object
+--> StringBuilder allows:
+--> Fast string modification
+--> Better performance
+--> Less memory usage
+
+
+
+
