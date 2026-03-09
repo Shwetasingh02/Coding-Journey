@@ -1,4 +1,4 @@
-package ArrayMastery.StriverProblem;
+package PatternQuestions;
 
 public class Practice {
     public static void main(String[] args) {
