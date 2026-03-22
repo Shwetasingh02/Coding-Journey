@@ -2,6 +2,8 @@ package BitwiseAndMath.leetcode;
 
 public class fourDivisor1390 {
 
+
+    //
     public static void main(String[] args) {
 
         int [] nums={21,4,7};
