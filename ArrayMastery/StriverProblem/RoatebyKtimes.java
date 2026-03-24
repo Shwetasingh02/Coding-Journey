@@ -25,7 +25,8 @@ public class RoatebyKtimes {
         int n = nums.length;
         for(int i=0;i<nums.length;i++){
             if(f.equalsIgnoreCase("left")) {
-                result[i] = nums[(i + k) % n];
+                 result[i] = nums[(i + k) % n];
+
             }else{
                 result[(i+k)%n]=nums[i];
             }
