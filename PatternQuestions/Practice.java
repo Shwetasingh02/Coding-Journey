@@ -5,7 +5,7 @@ public class Practice {
 
         int n = 5;
 
-        char[] arr = {'a', 'b', 'c', 'd'};  // tum yaha size change kar sakti ho
+        char[] arr = {'c', 'C', 'c', 'c'};  // tum yaha size change kar sakti ho
 
         for (int i = 1; i <= n; i++) {
 
