@@ -11,12 +11,12 @@ public class Practice {
 
             // print stars
             for (int j = 1; j <= n - i; j++) {
-                System.out.print("*");
+                System.out.print("A");
             }
 
             // print characters
             for (int j = 1; j <= (2 * i - 1); j++) {
-                System.out.print(arr[(j - 1) % arr.length]);
+                System.out.print("*");
             }
 
             System.out.println();
