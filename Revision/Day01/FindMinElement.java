@@ -1,5 +1,7 @@
 package Revision.Day01;
 
+import java.util.Scanner;
+
 public class FindMinElement {
 
     public static void main(String [] arg){
