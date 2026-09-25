@@ -1,6 +1,4 @@
-package Revision.Day01;
-
-import java.util.Scanner;
+package Revision.Day01_Array;
 
 public class SumofAllElement {
 

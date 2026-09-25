@@ -1,4 +1,4 @@
-package Revision.Day01;
+package Revision.Day01_Array;
 
 public class Count_Even_Odd {
 

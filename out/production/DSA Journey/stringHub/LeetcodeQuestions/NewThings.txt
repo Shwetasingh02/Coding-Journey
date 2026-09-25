@@ -1,0 +1,9 @@
+
+--> toCharArray()
+===================
+convert array into the character.
+
+01 . How to conver StringBUilder into the String?
+     StringBuilder builder =new StringBuilder();
+     builder.toString();
+
