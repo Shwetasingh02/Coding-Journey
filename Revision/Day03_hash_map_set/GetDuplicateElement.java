@@ -10,8 +10,7 @@ public class GetDuplicateElement {
 
         for(int num : arr){
             if(number.contains(num)){
-                System.out.println("First Duplicate : " + num);
-                break;
+                System.out.print( num +" ");
             }else{
                 number.add(num);
             }
