@@ -36,17 +36,19 @@ public class HashMapPractice02 {
 
         HashSet<Integer> num = new HashSet<>();
         int[] arr = {10, 20, 10, 30, 20, 40, 30, 50};
-
-        for(Integer value : arr){
-        num.add(value);
-        }
-        System.out.print(num);
-
-//        for(int number: arr){
-//            if(num.contains(number)){
-//                System.out.print("Duplicate");
-//            }
-//            num.add(number);
+//
+//        for(Integer value : arr){
+//        num.add(value);
 //        }
+//        System.out.print(num);
+
+        for(int number: arr){
+            if(num.contains(number)){
+                System.out.println("Duplicate found :"+ number);
+                break;
+            }else {
+                num.add(number);
+            }
+        }
     }
 }
