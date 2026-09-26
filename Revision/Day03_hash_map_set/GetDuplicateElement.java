@@ -11,6 +11,7 @@ public class GetDuplicateElement {
         for(int num : arr){
             if(number.contains(num)){
                 System.out.print( num +" ");
+                break;
             }else{
                 number.add(num);
             }
