@@ -7,7 +7,6 @@ public class Second_Largest_Element {
     int arr[]={45, 66, 77, 88, 22, 11};
     int secondLargest= Integer.MIN_VALUE;
     int Largest =Integer.MIN_VALUE;
-    int lar =0;
 
     for(int i=0 ; i<arr.length;i++) {
         if(arr[i]>Largest){
