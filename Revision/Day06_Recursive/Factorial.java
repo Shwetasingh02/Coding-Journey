@@ -1,6 +1,6 @@
-package Revision;
+package Revision.Day06_Recursive;
 
-public class Day06_Recursive {
+public class Factorial {
 
     public static void main(String[] arg) {
 
