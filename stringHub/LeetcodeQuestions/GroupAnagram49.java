@@ -16,7 +16,11 @@ public class GroupAnagram49 {
             Arrays.sort(letter);
             String setword = new String(letter);
 
-            map.computeIfAbsent(setword, k -> new ArrayList<>()).add(word);
+            if (!map.containsKey(setword)) {
+                map.put(setword, new ArrayList<>());
+            }
+
+            map.get(setword).add(word);
         }
             List<List<String>> result = new ArrayList<>(map.values());
             System.out.print(result);
